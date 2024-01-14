@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-WSPATH=${WSPATH:-'choreo'}
+UUID=${UUID:-'7b3d20d3-5922-4a78-9fd2-fc64e86c1ff6'}
+WSPATH=${WSPATH:-'7b3d20d3-5922-4a78-9fd2-fc64e86c1ff6'}
 
 # 生成配置文件，并经过 base64 加密
 echo "{
@@ -87,7 +87,7 @@ echo "{
                 }
             },
             \"sniffing\":{
-                \"enabled\":true,
+                \"enabled\": false,
                 \"destOverride\":[
                     \"http\",
                     \"tls\"
@@ -114,7 +114,7 @@ echo "{
                 }
             },
             \"sniffing\":{
-                \"enabled\":true,
+                \"enabled\": false,
                 \"destOverride\":[
                     \"http\",
                     \"tls\"
@@ -141,7 +141,7 @@ echo "{
                 }
             },
             \"sniffing\":{
-                \"enabled\":true,
+                \"enabled\": false,
                 \"destOverride\":[
                     \"http\",
                     \"tls\"
@@ -169,7 +169,7 @@ echo "{
                 }
             },
             \"sniffing\":{
-                \"enabled\":true,
+                \"enabled\": false,
                 \"destOverride\":[
                     \"http\",
                     \"tls\"
